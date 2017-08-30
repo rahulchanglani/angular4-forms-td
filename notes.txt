@@ -1,0 +1,28 @@
+template driven
+
+angular infers the from object from the DOM 
+
+
+
+reactive 
+
+From is created programmatically & synchronized with the DOM
+
+
+
+
+Only adding ngModel to form element shows that this is the control
+
+name of control is given by name property in element
+
+
+local reference of form is given by #f="ngForm" (something exposed by the form)
+it gives access of form by the angular
+
+type elementRef won't work 
+instead ngForm would work
+
+
+
+
+
